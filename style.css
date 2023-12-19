@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(cloud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-attachment: fixed;
+}
+.main{
+    font-family: 'montserrat', sans-serif;
+    position: absolute;
+    color: #fff;   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+}
+.header{
+    padding: 50px 20px 30px 20px;
+}
+.header h1{
+    font-size: 37px;
+    color:#fbb034;
+    text-shadow: 1px 3px rgba(0, 0, 0, .9) ;
+}
+.header input{
+    width: 100%;
+    padding: 9px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 2px groove #e1971fd8;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.city{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+}
+.temp{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+.desc{
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10pxs;
+}
+.minmaxx{
+    font-size: 17px;
+    text-shadow: 1px 3px rgba(0,0,0,0.8);
+}
